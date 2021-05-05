@@ -1,0 +1,19 @@
+Wikimedia's mailman-templates
+
+These are customized versions of the upstream Mailman3 templates
+with links to the web UI.
+
+If you make a change to the English version, run
+  make sync
+
+If you want to see the output, run:
+  make DESTDIR=export install
+
+To run tests:
+  make test
+
+Templates are:
+  Copyright (C) 1998-2021 Free Software Foundation, Inc.
+  Copyright (C) 2021 Kunal Mehta <legoktm@debian.org>
+
+under the GPL v3, or any later version.
