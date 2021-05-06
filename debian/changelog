@@ -1,0 +1,5 @@
+mailman-templates (0.1) buster-wikimedia; urgency=medium
+
+  * Initial Release.
+
+ -- Kunal Mehta <legoktm@debian.org>  Thu, 06 May 2021 15:07:34 -0700

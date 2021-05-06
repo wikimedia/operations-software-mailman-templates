@@ -1,0 +1,16 @@
+Source: mailman-templates
+Section: mail
+Priority: optional
+Maintainer: Kunal Mehta <legoktm@debian.org>
+Build-Depends: debhelper-compat (= 12), python3
+Standards-Version: 4.5.1
+Homepage: https://wikitech.wikimedia.org/wiki/Mailman#Templates
+Rules-Requires-Root: no
+
+Package: mailman-templates
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: customized Mailman3 templates
+ Customized email templates for Mailman3. These templates improve
+ upon the upstream ones by providing links to the web interface
+ where appropriate.
