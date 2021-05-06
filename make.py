@@ -56,7 +56,7 @@ def sync():
     for template in en_dir.iterdir():
         data.append((path_to_key(template), template.read_text().rstrip()))
     data.sort()
-    i18n_en.write_text(json.dumps(OrderedDict(data), indent="\t"))
+    i18n_en.write_text(json.dumps(OrderedDict(data), indent="\t") + "\n")
 
 
 def export(destdir: Path):
