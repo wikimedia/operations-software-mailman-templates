@@ -8,7 +8,7 @@ Homepage: https://wikitech.wikimedia.org/wiki/Mailman#Templates
 Rules-Requires-Root: no
 
 Package: mailman-templates
-Architecture: any
+Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: customized Mailman3 templates
  Customized email templates for Mailman3. These templates improve
