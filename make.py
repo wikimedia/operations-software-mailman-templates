@@ -24,6 +24,12 @@ from collections import OrderedDict
 from pathlib import Path
 
 I18N = Path(__file__).parent / 'i18n'
+# Blank templates that should exist, but don't need to be translated
+BLANK_TEMPLATES = [
+    "list-member-digest-header",
+    "list-member-regular-header",
+    "list-user-notice-goodbye",
+]
 
 
 def parse_args():
@@ -69,6 +75,9 @@ def export(destdir: Path):
         langdir = dest / code
         langdir.mkdir(parents=True, exist_ok=True)
         data = json.loads(lang.read_text())
+        # Add in the blank templates
+        for blank in BLANK_TEMPLATES:
+            data[blank] = ""
         for key, val in data.items():
             if key.startswith("@"):
                 continue
