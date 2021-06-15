@@ -1,13 +1,13 @@
-Your request to the $listname mailing list
+Your request to the ${listname} mailing list
 
-    $request
+    ${request}
 
 has been rejected by the list moderator.  The moderator gave the
 following reason for rejecting your request:
 
-"$reason"
+"${reason}"
 
 Any questions or comments should be directed to the list administrator
 at:
 
-    $owner_email
+    ${owner_email}

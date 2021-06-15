@@ -1,7 +1,7 @@
-Help for $listname mailing list
+Help for ${listname} mailing list
 
-This is email command 'help' for version $version of the GNU Mailman list
-manager at $domain.  The following describes commands you can send to get
+This is email command 'help' for version ${version} of the GNU Mailman list
+manager at ${domain}.  The following describes commands you can send to get
 information about and control your subscription to Mailman lists at this site.
 A command can be in the Subject line or in the body of the message.
 
@@ -13,8 +13,8 @@ words in "[]" denote OPTIONAL items.  Do not include the "<>"s or
 
 The following commands are valid:
 
-    $commands
+    ${commands}
 
 Questions and concerns for the attention of a person should be sent to:
 
-    $administrator
+    ${administrator}

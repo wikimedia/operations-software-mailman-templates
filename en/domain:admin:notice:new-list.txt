@@ -1,4 +1,4 @@
-The mailing list '$listname' has just been created for you.  The
+The mailing list '${listname}' has just been created for you.  The
 following is some basic information about your mailing list.
 
 You can administer your list at:

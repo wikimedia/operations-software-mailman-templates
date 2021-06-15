@@ -1,5 +1,5 @@
 Your message entitled
 
-    $subject
+    ${subject}
 
-was successfully received by the $display_name mailing list.
+was successfully received by the ${display_name} mailing list.

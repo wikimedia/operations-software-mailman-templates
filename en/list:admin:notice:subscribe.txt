@@ -1,1 +1,1 @@
-$member has been successfully subscribed to $display_name.
+${member} has been successfully subscribed to ${display_name}.
