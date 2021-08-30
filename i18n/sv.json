@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sabelöga"
+		]
+	},
+	"domain-admin-notice-new-list": "E-postlistan \"${listname}\" har precis skapats åt dig. Här följer grundläggande information om din e-postlista.\n\nDu kan administrera din lista på:\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/\n\nArkiv (om det aktiverats) finns på:\n\n  https://${domain}/hyperkitty/list/${listname}/\n\nHar du några frågor kan du läsa:\n\n  https://meta.wikimedia.org/wiki/Special:MyLanguage/Mailing_lists/Administration",
+	"list-admin-action-post": "Som listadministratör krävs ditt godkännande för följande inlägg i e-postlistan:\n\n    Lista:    ${listname}\n    Från:    ${sender_email}\n    Ämne: ${subject}\n\nMeddelandet kvarhålls eftersom:\n\n${reasons}\n\nNär du har tid kan du besöka din instrumentbräda för att godkänna eller neka begäran.\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-admin-notice-removal": "${member} prenumererar inte längre på ${listname} på grund av alltför stora studsar.",
+	"list-admin-notice-subscribe": "${member} prenumererar nu på ${display_name}",
+	"list-admin-notice-unsubscribe": "${member} togs bort från ${display_name}.",
+	"list-member-generic-footer": "_______________________________________________\n${display_name} e-postlista -- ${listname}\nListinformation: https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-user-notice-post": "Ditt meddelande med titeln\n\n    ${subject}\n\ntogs emot av e-postlistan ${display_name}."
+}
