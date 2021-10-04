@@ -1,17 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shimamura Sakura"
+			"Shimamura Sakura",
+			"列维劳德"
 		]
 	},
-	"domain-admin-notice-new-list": "已为您创建邮件列表'${listname}'。以下是您的邮件列表的一些基本信息。\n\n可在这里管理您的列表:\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/\n\n存档（若启用）在这里:\n\n  https://${domain}/hyperkitty/list/${listname}/\n\n如果您有问题，请参看:\n\n  https://meta.wikimedia.org/wiki/Special:MyLanguage/Mailing_lists/Administration",
-	"help": "邮件列表${listname}的帮助\n\n这是${domain}上的GNU Mailman列表管理器版本${version}的邮件命令'help'。\n下面说明您可发送的命令，以从本站点的Mailman列表获取信息和管理订阅。\n命令可在信息的主题或正文中。\n\n命令应发送到地址 ${listname}-request@${domain}。\n\n关于此描述：“<>”中的词是必须的项目，“[]”中的词是可选项目。使用命令时不要包含\n\"<>\"或\"[]\"。\n\n以下命令可用：\n\n    ${commands}\n\n关于某人的问题或事项应发送到：\n\n    ${administrator}",
-	"list-admin-action-post": "以下邮件列表的信息需要您作为列表管理员的许可：\n\n    列表：${listname}\n    来源：${sender_email}\n    主题：${subject}\n\n由于以下原因，本信息被暂留：\n\n    ${reasons}\n\n方便起见，请访问您的管理面板以通过或拒绝此请求。\n\n    https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"domain-admin-notice-new-list": "已为您创建邮件列表 '${listname}'。以下是关于您邮件列表的一些基本信息。\n\n您可在这里管理您的列表:\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/\n\n存档（若启用）会存在这里:\n\n  https://${domain}/hyperkitty/list/${listname}/\n\n如果您有问题，请参看:\n\n  https://meta.wikimedia.org/wiki/Special:MyLanguage/Mailing_lists/Administration",
+	"help": "邮件列表 ${listname} 的帮助\n\n这是邮件命令 'help'，可用在 ${domain} 上的 GNU Mailman 列表管理器 ${version} 版本中。\n下面写出了您可发送的命令，用于在此网站的 Mailman 列表中获取相关信息或管理订阅内容。\n命令可能位于信息的主题或正文。\n\n命令应发送到地址 ${listname}-request@${domain}。\n\n关于此描述：“<>”中的词是'''必须'''的项目，“[]”中的词是'''可选'''的项目。使用命令时不要放在\n“<>”或“[]”里。\n\n以下命令是可用的：\n\n    ${commands}\n\n对于他人的问题或疑虑应发送给：\n\n    ${administrator}",
+	"list-admin-action-post": "因为您是管理员，以下邮件列表的信息需要您的许可：\n\n    列表：${listname}\n    来自：${sender_email}\n    主题：${subject}\n\n由于以下原因，本信息被暂留：\n\n    ${reasons}\n\n为方便起见，请访问您的控制面板去通过或拒绝此请求。\n\n    https://${domain}/postorius/lists/${short_listname}.${domain}/",
 	"list-admin-action-subscribe": "一个邮件列表的订阅请求需要您的许可。\n\n    成员：${member}\n    列表：${listname}\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
 	"list-admin-action-unsubscribe": "一个邮件列表的取消订阅请求需要您的许可。\n\n    成员：${member}\n    列表：${listname}\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
-	"list-admin-notice-disable": "已在${listname}上禁用成员${member}的订阅。原因是TA的bounce score超过了列表的bounce_score_threshold。",
-	"list-admin-notice-removal": "因过多的bounce，${member}被从${listname}取消订阅。",
-	"list-admin-notice-subscribe": "成员${member}成功订阅到${display_name}。",
-	"list-admin-notice-unrecognized": "附加的消息被作为bounce接收了，但无法识别bounce格式或从中取出成员地址。\n此邮件列表配置为发送所有无法识别的bounce信息到列表管理员。\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
-	"list-admin-notice-unsubscribe": "成员${member}已从${display_name}移除。"
+	"list-admin-notice-disable": "已在 ${listname} 上禁用 ${member} 的订阅。原因是其 bounce score 超过了列表的 bounce_score_threshold。",
+	"list-admin-notice-removal": "因过多的 bounce，${member} 已被从 ${listname} 中取消订阅。",
+	"list-admin-notice-subscribe": "${member} 已成功订阅 ${display_name}。",
+	"list-admin-notice-unrecognized": "附加的消息被作为 bounce 接收了，但无法识别 bounce 格式或从中取出成员地址。\n此邮件列表配置为发送所有无法识别的 bounce 信息到列表管理员。\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-admin-notice-unsubscribe": "成员 ${member} 已从 ${display_name} 移除。"
 }

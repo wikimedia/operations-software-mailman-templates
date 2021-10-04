@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"domain-admin-notice-new-list": "De mailinglijst '${listname}' is zojuist voor je aangemaakt. Hier volgt wat basisinformatie over je mailinglijst.\n\nJekan je lijst beheren op:\n\n   https://${domain}/postorius/lists/${short_listname}.${domain}/\n\nArchieven (indien ingeschakeld) zijn beschikbaar op:\n\n   https://${domain}/hyperkitty/list/${listname}/\n\nAls je vragen hebt, kijk dan op:\n\n   https://meta.wikimedia.org/wiki/Special:MyLanguage/Mailing_lists/Administration",
+	"help": "Hulp voor mailinglijst ${listname}\n\nDit is het e-mailcommando 'help' voor versie ${version} van de GNU\nMailman-lijstmanager van ${domain}. Hieronder worden de opdrachten beschreven\ndie je kunt verzenden om informatie te krijgen over en beheer van je abonnement\nop Mailman-lijsten op deze site. Een opdracht kan in de onderwerpregel\nof in de hoofdtekst van het bericht staan.\n\nOpdrachten moeten worden verzonden naar het adres ${listname}-request@${domain}.\n\nOver de beschrijvingen - woorden tussen \"<>\" duiden op VEREISTE items en\nwoorden in \"[]\" geven OPTIONELE items aan. Voeg geen \"<>\" of \"[]\" toe als\nu de opdrachten gebruikt.\n\nDe volgende commando's zijn geldig:\n\n     ${commands}\n\nVragen en opmerkingen ter attentie van een persoon moeten worden gestuurd naar:\n\n     ${administrator}",
+	"list-admin-action-post": "Als lijstbeheerder wordt je autorisatie gevraagd voor het\nvolgende\nbericht naar de mailinglijst:\n\n     Lijst:     ${listname}\n     Van:       ${sender_email}\n     Onderwerp: ${subject}\n\nHet bericht wordt vastgehouden omdat:\n\n${reasons}\n\nGa op je gemak naar je dashboard om het verzoek goed of af te keuren.\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-admin-action-subscribe": "Je autorisatie is vereist voor een abonnementsaanvraag voor een mailinglijst:\n\n     Voor:  ${member}\n     Lijst: ${listname}\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-admin-action-unsubscribe": "Je autorisatie is vereist voor een abonnementsopzegging voor een mailinglijst:\n\n     Voor:  ${member}\n     Lijst: ${listname}\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-admin-notice-disable": "Het abonnement van ${member} is uitgeschakeld op ${listname} omdat hun bouncescore\nde bounce_score_threshold van de mailinglijst overschrijdt.",
+	"list-admin-notice-removal": "${member} is afgemeld voor ${listname} vanwege overmatige bounces.",
+	"list-admin-notice-subscribe": "${member} is geabonneerd op ${display_name}.",
+	"list-admin-notice-unrecognized": "Het bijgevoegde bericht is ontvangen als een bounce, maar de opmaak van\nde bounce werd niet herkend of er konden geen ledenadressen uit worden\ngehaald. Deze mailinglijst is geconfigureerd om alle niet-herkende \nbounce-berichten naar de lijstbeheerder(s) te sturen.\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-admin-notice-unsubscribe": "${member} is verwijderd van ${display_name}.",
+	"list-member-digest-masthead": "Stuur verichten voor de mailinglijst ${display_name} naar\n     ${listname}\n\nOm je aan of af te melden, ga naar\n    https://${domain}/postorius/lists/${short_listname}.${domain}/\n\nJe kunt de persoon die de lijst beheert bereiken op:\n    ${owner_email}\n\nBewerk uw antwoorden je Onderwerpregel zodat deze specifieker is dan\n\"Re: Contents of ${display_name} digest...\"",
+	"list-member-generic-footer": "_______________________________________________\nMailinglijst ${display_name} -- ${listname}\nLijstinformatie: https://${domain}/postorius/lists/${short_listname}.${domain}/"
+}
