@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"列维劳德"
+		]
+	},
+	"domain-admin-notice-new-list": "已為您建立郵件清單 '${listname}'。以下是您郵件清單的一些基本訊息。\n\n您可以在這裡管理您的清單:\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/\n\n存檔（續啓用）可以在這裡檢視:\n\n  https://${domain}/hyperkitty/list/${listname}/\n\n如果您有疑問，請参看:\n\n  https://meta.wikimedia.org/wiki/Special:MyLanguage/Mailing_lists/Administration",
+	"help": "郵件清單 ${listname} 的說明\n\n這是電子郵件的 'help' 命令，可在 ${domain} 上的 GNU Mailman  ${version} 版本清單管理裝置中使用。\n下面寫出了您可以發送的命令，可用於此網站的 Mailman 清單中取得相關訊息或管理訂閲內容。\n命令可以位於訊息的主題或正文中。\n\n命令應發送到地址 ${listname}-request@${domain}。\n\n關於此描述：「<>」中的單字是'''必填'''的項目，「[]」中的單字是'''選填'''的項目。使用命令時不要使用\n「<>」或「[]」。\n\n以下命令是可用的：\n\n    ${commands}\n\n對於他人的問題或疑慮應發送给：\n\n    ${administrator}",
+	"list-admin-action-post": "因為您是管理員，以下郵件清單的訊息需要您的許可：\n\n    清單：${listname}\n    來自：${sender_email}\n    主題：${subject}\n\n由於以下原因，本訊息正被暫留：\n\n    ${reasons}\n\n為方便起見，請造訪您的控制台以批准或拒絕此請求。\n\n    https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-admin-action-subscribe": "需要您的授權來批准一份訂閱郵件清單的請求：\n\n    對象：${member}\n    清單：${listname}\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-admin-action-unsubscribe": "需要您的授權來批准一份取消訂閱郵件清單的請求：\n\n    對象：${member}\n    清單：${listname}\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-admin-notice-subscribe": "${member}已成功訂閱${display_name}。",
+	"list-admin-notice-unsubscribe": "成員${member}已從${display_name}移除。",
+	"list-member-generic-footer": "_______________________________________________\n${display_name}郵件清單 -- ${listname}\n清單資訊：https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-user-notice-post": "您的留言題名\n\n    ${subject}\n\n已成功被${display_name}電子郵件清單接收。",
+	"list-user-notice-refuse": "您給${listname}郵件清單的請求\n\n    ${request}\n\n已被清單版主基於下述原因拒絕您的請求：\n\n「${reason}」\n\n若有任何問題或意見請直接用下方電子郵件連結清單管理員：\n\n    ${owner_email}",
+	"list-user-notice-welcome": "歡迎來到「${display_name}」郵件清單！\n\n要發布內容到此清單，請傳送您的訊息到：\n\n    ${listname}\n\n您可以透過下方網址來取消訂閱或調整您的選項：\n  https://${domain}/postorius/lists/${short_listname}.${domain}"
+}
