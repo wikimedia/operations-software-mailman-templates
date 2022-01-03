@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Destinid10 2",
+			"MarcoAurelio"
+		]
+	},
+	"domain-admin-notice-new-list": "La lista de correo '${listname}' acaba de ser creada.\n\nPuedes administrar tu lista en:\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/\n\nLos archivos (de estar habilitados) estarán disponibles en:\n\n  https://${domain}/hyperkitty/list/${listname}/\n\nSi tienes preguntas, por favor lee:\n\n  https://meta.wikimedia.org/wiki/Special:MyLanguage/Mailing_lists/Administration",
+	"list-admin-notice-removal": "La suscripción de ${member} a la lista ${listname} ha sido dada de baja automáticamente debido a excesivos rebotes del correo.",
+	"list-admin-notice-subscribe": "Se suscribió a ${member} a la lista ${display_name}.",
+	"list-admin-notice-unsubscribe": "Se ha eliminado a ${member} de la lista ${display_name}.",
+	"list-member-generic-footer": "_______________________________________________\nLista de correo ${display_name} -- ${listname}\nInformación: https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-user-notice-welcome": "¡Bienvenido a la lista de correo \"${display_name}\"!\n\nPara publicar un mensaje en esta lista, por favor escribe a:\n\n  ${listname}\n\nPuedes cancelar tu suscripción o modificar tus preferencias visitando:\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}"
+}
