@@ -4,6 +4,7 @@
 			"YaronSh"
 		]
 	},
+	"domain-admin-notice-new-list": "רשימת הדיוור ${listname}' נוצרה עבורך הרגע.  להלן מידע בסיסי על רשימת הדיוור שלך.\n\nאפשר לנהל את הרשימה שלך דרך:\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/\n\nארכיונים (אם מופעלים) זמינים דרך:\n\n  https://${domain}/hyperkitty/list/${listname}/\n\nלשאלות, נא לפנות אל:\n\n  https://meta.wikimedia.org/wiki/Special:MyLanguage/Mailing_lists/Administration",
 	"list-admin-notice-disable": "המינוי של ${member} לרשימה ${listname} הושבת עקב דירוג החזרה שחורג מסף ניקוד ההחזרה (bounce_score_threshold) של הרשימה.",
 	"list-admin-notice-removal": "המינוי של ${member} מהרשימה ${listname} הושבת עקב החזרות מוגזמות.",
 	"list-admin-notice-subscribe": "ההרשמה של ${member} אל ${display_name} הצליחה.",
