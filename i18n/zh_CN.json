@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"GuoPC",
 			"Shimamura Sakura",
 			"列维劳德"
 		]
@@ -14,5 +15,12 @@
 	"list-admin-notice-removal": "因过多的 bounce，${member} 已被从 ${listname} 中取消订阅。",
 	"list-admin-notice-subscribe": "${member} 已成功订阅 ${display_name}。",
 	"list-admin-notice-unrecognized": "附加的消息被作为 bounce 接收了，但无法识别 bounce 格式或从中取出成员地址。\n此邮件列表配置为发送所有无法识别的 bounce 信息到列表管理员。\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
-	"list-admin-notice-unsubscribe": "成员 ${member} 已从 ${display_name} 移除。"
+	"list-admin-notice-unsubscribe": "成员 ${member} 已从 ${display_name} 移除。",
+	"list-member-digest-masthead": "将 ${display_name} 邮件列表提交至\n    ${listname}\n\n要订阅或取消订阅，请访问\n    https://${domain}/postorius/lists/${short_listname}.${domain}/\n\n您可以通过下方电子邮件联系列表管理者\n    ${owner_email}\n\n回复时请编辑您的主题行，使其比以下内容具体\n“Re: ${display_name} 摘要的内容…”",
+	"list-member-generic-footer": "_______________________________________________\n${display_name} 邮件列表 -- ${listname}\n列表信息：https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-user-notice-hold": "您发送到“${listname}”的邮件主题为\n\n    ${subject}\n\n此邮件在列表版主可以对其查阅以供批准之前处于持有状态。\n\n消息出于下述原因出于持有状态：\n\n${reasons}\n\n该消息将被发布到列表，或者您将收到版主抉择的通知。",
+	"list-user-notice-post": "您的留言题名\n\n    ${subject}\n\n已成功被 ${display_name} 邮件列表接收。",
+	"list-user-notice-refuse": "您对 ${listname} 邮件列表的请求\n\n    ${request}\n\n已被列表版主基于下述原因拒绝：\n\n“${reason}”\n\n若有任何问题或意见请通过下方电子邮件直接联系列表管理员：\n\n    ${owner_email}",
+	"list-user-notice-rejected": "您发送到 ${listname} 邮件列表的消息出于下述原因被拒绝：\n\n${reasons}\n\nMailman 收到的原始消息已附上。",
+	"list-user-notice-welcome": "欢迎来到“${display_name}”邮件列表！\n\n要发布内容到此列表，请将您的消息发送到：\n\n    ${listname}\n\n您可以通过下方网址来取消订阅或调整您的选项：\n  https://${domain}/postorius/lists/${short_listname}.${domain}"
 }
