@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"DDPAT"
+			"DDPAT",
+			"Ice bulldog"
 		]
 	},
 	"domain-admin-notice-new-list": "Список розсилки «${listname}» щойно створено для вас.\nНижче наведено деякі основні відомості про ваш список розсилки.\n\nАдмініструвати свій список можна за адресою:\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/\n\nАрхів (якщо ввімкнено) буде доступний за адресою:\n\n  https://${domain}/hyperkitty/list/${listname}/\n\nЯкщо у вас виникли запитання, перегляньте:\n\n  https://meta.wikimedia.org/wiki/Special:MyLanguage/Mailing_lists/Administration",
