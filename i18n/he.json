@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"YaronSh"
 		]
 	},
@@ -11,6 +12,8 @@
 	"list-admin-notice-unrecognized": "ההודעה המצורפת התקבלה כהחזרה אך או שתצורת ההחזרה לא זוהתה או שלא ניתן לחלץ ממנה כתובות של מישהו או מישהי מהחברים.\nרשימת דיוור זו הוגדרה לשלוח את כל הודעות ההחזרה הבלתי מזוהות להנהלת הרשימה.\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
 	"list-admin-notice-unsubscribe": "בוצעה הסרה של ${member} מתוך ${display_name}.",
 	"list-member-generic-footer": "_______________________________________________\nרשימת הדיוור ${display_name} -‫- ${listname}\nפרטים על הרשימה: https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-user-action-subscribe": "אישור רישום כתובת דוא״ל\n\nשלום, כאן שרת ה־GNU Mailman בכתובת ${domain}.\n\nקיבלנו בקשת רישום לכתובת הדוא״ל\n\n    ${user_email}\n\nלפני שניתן להתחיל להשתמש ב־GNU Mailman באתר הזה, תחילה עליך לאשר שזאת כתובת הדוא״ל שלך. אפשר לעשות זאת באמצעות תגובה לכתובת הזאת או ביקור באתר:\n\n    https://${domain}/postorius/lists/${short_listname}.${domain}/confirm/?token=${token}\n\nאו שעליך לכלול את השורה הבאה -- ורק את השורה הבאה -- בהודעה אל ${request_email}:\n\n    confirm ${token}\n\nנא לשים לב ששליחת `תגובה' להודעה הזאת אמורה לעבוד מרוב תוכנות הדוא״ל.\n\nאם אינך רוצה לרשום את כתובת הדוא״ל הזאת, אפשר פשוט להתעלם מההודעה. אם לדעתך רשמו אותך באופן זדוני לרשימה או שיש לך שאלות נוספות, ניתן ליצור קשר עם\n\n    ${owner_email}",
+	"list-user-action-unsubscribe": "אישור הסרת כתובת דוא״ל\n\nשלום, כאן שרת ה־GNU Mailman בכתובת ${domain}.\n\nקיבלנו בקשת הסרה לכתובת הדוא״ל\n\n    ${user_email}\n\nלפני ש־GNU Mailman יוכל להסיר אותך, תחילה עליך לאשר את בקשתך.\nאפשר לעשות זאת באמצעות תגובה לכתובת הזאת או ביקור באתר:\n\n    https://${domain}/postorius/lists/${short_listname}.${domain}/confirm/?token=${token}\n\nאו שעליך לכלול את השורה הבאה -- ורק את השורה הבאה -- בהודעה אל ${request_email}:\n\n    confirm ${token}\n\nנא לשים לב ששליחת `תגובה' להודעה הזאת אמורה לעבוד מרוב תוכנות הדוא״ל.\n\nכדי לעצור את ההסרה של כתובת הדוא״ל הזאת, אפשר פשוט להתעלם מההודעה הזאת.  אם לדעתך ניסו להסיר את הכתובת שלך מהרשימה במטרה זדונית או שיש לך שאלות, אפשר ליצור קשר עם\n\n    ${owner_email}",
 	"list-user-notice-refuse": "בקשתך לרשימת הדיוור ${listname}\n\n    ${request}\n\nנדחתה על ידי מפקחי הרשמה.  הסיבה שצוינה לדחיית הבקשה היא:\n\n„${reason}”\n\nשאלות ותגובות ניתן להפנות להנהלת הרשימה בכתובת:\n\n    ${owner_email}",
 	"list-user-notice-rejected": "ההודעה שלך לרשימת הדיוור ${listname} נדחתה עקב:\n\n${reasons}",
 	"list-user-notice-warning": "המינוי שלך לרשימת הדיוור ${listname} הושבת כיוון שהתקבלו מגוון החזרות המציינות שיש בעיה במשלוח הודעות אל ${sender_email}. אולי כדאי לך לבדוק מול הנהלת שירות הדוא״ל שלך לקבלת עזרה.\n\nלשאלות וטענות, ניתן ליצור קשר עם בעלי רשימת הדיוור בכתובת\n\n    ${owner_email}",
