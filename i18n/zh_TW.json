@@ -13,7 +13,9 @@
 	"list-admin-notice-subscribe": "${member}已成功訂閱${display_name}。",
 	"list-admin-notice-unsubscribe": "成員${member}已從${display_name}移除。",
 	"list-member-generic-footer": "_______________________________________________\n${display_name}郵件清單 -- ${listname}\n清單資訊：https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-user-notice-no-more-today": "我們已收到來自於您電子郵件 <${sender_email}> 裡，請求從 ${listname} 電郵清單裡自動回覆的訊息。\n\n我們今日已有 ${count} 次請求，為了避免發生電郵機器人之間電郵迴圈之類的問題，我們今日不會再對您發送任何回覆。請您明天再試。\n\n若您認為此訊息內容有誤，或是您有別的問題，請聯絡在 ${owner_email} 裡的清單擁有者。",
 	"list-user-notice-post": "您的留言題名\n\n    ${subject}\n\n已成功被${display_name}電子郵件清單接收。",
 	"list-user-notice-refuse": "您給${listname}郵件清單的請求\n\n    ${request}\n\n已被清單版主基於下述原因拒絕您的請求：\n\n「${reason}」\n\n若有任何問題或意見請直接用下方電子郵件連結清單管理員：\n\n    ${owner_email}",
+	"list-user-notice-rejected": "您發送到 ${listname} 電郵清單的訊息，已被下列原因給拒絕：\n\n${reasons}\n\n已附上 Mailman 接收到的原有訊息。",
 	"list-user-notice-welcome": "歡迎來到「${display_name}」郵件清單！\n\n要發布內容到此清單，請傳送您的訊息到：\n\n    ${listname}\n\n您可以透過下方網址來取消訂閱或調整您的選項：\n  https://${domain}/postorius/lists/${short_listname}.${domain}"
 }
