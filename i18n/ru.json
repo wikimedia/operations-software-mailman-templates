@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pacha Tchernof"
+		]
+	},
+	"list-admin-action-subscribe": "Для подтверждения запроса на получение рассылки писем \nнеобходимо, чтобы вы вошли в свою учётную запись:\n\n    Для:       ${member}\n    Список: ${listname}\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-admin-action-unsubscribe": "Для подтверждения отказа от получения рассылки писем \nнеобходимо, чтобы вы вошли в свою учётную запись:\n\n     Для:       ${member}\n     Список: ${listname}\n\n   https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-admin-notice-disable": "Подписка на ${listname} для ${member} была отключена ввиду того,\nчто его показатель автоматических сообщений о недоставке писем\nпревышает bounce_score_threshold списка рассылки.",
+	"list-admin-notice-removal": "${member} отписался_ась от ${listname} ввиду чрезмерного количества автоматических сообщений о невозможности доставить эл. письмо.",
+	"list-admin-notice-subscribe": "${member} успешно подписался_ась на ${display_name}.",
+	"list-admin-notice-unrecognized": "Вложенное сообщение было получено в виде вернувшегося\nсообщения о недоставленном электронном письме, но либо\nформат возврата не был распознан, либо не удалось извлечь\nиз него адреса участников. Этот список рассылки был настроен\nна доставку администратору(ам) списка всех нераспознанных\nвернувшихся сообщений.\n\n https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-admin-notice-unsubscribe": "${member} был_а удален_а из ${display_name}.",
+	"list-member-generic-footer": "_______________________________________________\nСписок рассылки ${display_name} -- ${listname}\nИнформация о списке: https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-user-notice-post": "Ваше сообщение с заголовком\n\n    ${subject}\n\nбыло успешно добавлено в список рассылки ${display_name}.",
+	"list-user-notice-refuse": "Ваш запрос в список рассылки ${listname}\n\n    ${request}\n\nбыл отклонён модератором списка. При отклонении\nвашего запроса модератор указал следующую причину:\n\n«${reason}»\n\nВаши вопросы и замечания следует адресовать\nадминистратору списка по адресу:\n\n    ${owner_email}",
+	"list-user-notice-rejected": "Ваше сообщение в список рассылки ${listname}\nбыло отклонено по следующим причинам:\n\n${reasons}\n\nПрилагается исходное сообщение, полученное Mailman.",
+	"list-user-notice-welcome": "Добро пожаловать в список рассылки «${display_name}»!\n\nЧтобы опубликовать что-либо в этом списке,\nотправьте ваше сообщение по адресу:\n\n    ${listname}\n\nВы можете отписаться или внести изменения\nв настройки рассылки, перейдя по ссылке:\n  https://${domain}/postorius/lists/${short_listname}.${domain}"
+}
