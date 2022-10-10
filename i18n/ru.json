@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pacha Tchernof"
+			"Pacha Tchernof",
+			"Артём 13327"
 		]
 	},
+	"domain-admin-notice-new-list": "Список рассылки '${listname}' только что был создан для вас.  Далее приведена основная информация о вашем списке рассылки.\n\nВы можете управлять своим списком по адресу:\n\n https://${domain}/postorius/lists/${short_listname}.${domain}/\n\nАрхивы (если включены) будут доступны по адресу:\n\n https://${domain}/hyperkitty/list/${listname}/\n\nЕсли у вас есть вопросы, смотри:\n\n https://meta.wikimedia.org/wiki/Special:MyLanguage/Mailing_lists/Administration",
 	"list-admin-action-subscribe": "Для подтверждения запроса на получение рассылки писем \nнеобходимо, чтобы вы вошли в свою учётную запись:\n\n    Для:       ${member}\n    Список: ${listname}\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
 	"list-admin-action-unsubscribe": "Для подтверждения отказа от получения рассылки писем \nнеобходимо, чтобы вы вошли в свою учётную запись:\n\n     Для:       ${member}\n     Список: ${listname}\n\n   https://${domain}/postorius/lists/${short_listname}.${domain}/",
 	"list-admin-notice-disable": "Подписка на ${listname} для ${member} была отключена ввиду того,\nчто его показатель автоматических сообщений о недоставке писем\nпревышает bounce_score_threshold списка рассылки.",
