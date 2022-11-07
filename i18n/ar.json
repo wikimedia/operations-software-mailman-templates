@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dr-Taher",
+			"Meno25"
+		]
+	},
+	"domain-admin-notice-new-list": "تم الآن إنشاء القائمة البريدية \"${listname}\" من أجلك. فيما يلي بعض المعلومات الأساسية حول قائمتك البريدية.\n\nيمكنك إدارة قائمتك على: https://${domain}/postorius/lists/${short_listname}.${domain}/\n\nالأرشيفات (إذا كانت مُفعَّلة) ستكون متاحة على: https://${domain}/hyperkitty/list/${listname}/\n\nإذا كانت لديك أسئلة ، يرجى الاطلاع على: https://meta.wikimedia.org/wiki/Special:MyLanguage/Mailing_lists/Administration",
+	"list-admin-notice-removal": "تم إلغاء اشتراك ${member} من ${listname} بسبب الارتداد المفرط.",
+	"list-admin-notice-subscribe": "تم الاشتراك بنجاح ${member} في ${display_name}.",
+	"list-admin-notice-unsubscribe": "تمت إزالة ${member} من ${display_name}.",
+	"list-member-generic-footer": "_______________________________________________\n${display_name} قائمة بريدية -- ${listname}\nمعلومات القائمة: https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-user-notice-post": "رسالتك بعنوان! N !! N! تم استلام ${subject}! N !! N! بنجاح بواسطة القائمة البريدية لـ ${display_name}."
+}
