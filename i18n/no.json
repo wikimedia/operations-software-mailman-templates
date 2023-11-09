@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"domain-admin-notice-new-list": "E-postlista «${listname}» har nettopp blitt opprettet for deg. Følgende er grunnleggende informasjon om e-postlista di.\n\nDu kan administrere lista på:\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/\n\nArkiver (hvis dette er aktivert) vil være tilgjengelige på:\n\n  https://${domain}/hyperkitty/list/${listname}/\n\nSe følgende side om du har noen spørsmål:\n\n  https://meta.wikimedia.org/wiki/Special:MyLanguage/Mailing_lists/Administration",
+	"help": "Hjelp for e-postlista ${listname}\n\nDette er e-postkommandoen «help» for versjon ${version} av GNU Mailmans listebehandling på ${domain}. Følgende beskriver kommandoer du kan sende for å få informasjon om og kontrollere abonnementet ditt på Mailman-lister på dette domenet. En kommando kan være i emnefeltet eller innholdsfeltet av meldinga.\n\nKommandoer bør sendes til adressa ${listname}-request${domain}\n\nOm beskrivelsene – ord mellom <> er PÅKREVDE elementer, og ord i [] er VALGFRIE elementer. Ikke ta med <> eller [] når du bruker kommandoene.\n\nFølgende kommandoer er gyldige:\n\n  ${commands}\n\nSpørsmål og bemerkninger bør sendes til:\n\n  ${administrator}",
+	"list-admin-action-post": "Som listeadministrator trengs det godkjenning av deg for følgende poster til e-postlister:\n\n  Liste:  ${listname}\n  Fra:  ${sender_email}\n  Emne:  ${subject}\n\nMeldingen holdes igjen fordi:\n\n${reasons}\n\nBesøk dashbordet for å godkjenne eller avvise forespørselen når det passer for deg.\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-admin-action-subscribe": "Du må godkjenne et nytt abonnement på ei e-postliste:\n\n  For:  ${member}\n  Liste: ${listname}\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-admin-action-unsubscribe": "Du må godkjenne et avsluttet abonnement på ei e-postliste:\n\n  For:  ${member}\n  Liste:  ${listname}\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-admin-notice-disable": "Medlemskapet til ${member} har blitt deaktivert på ${listname} fordi avvisningsskåren (bounce score) hens overskrider e-postlistas bounce_score_threshold.",
+	"list-admin-notice-removal": "${member} har blitt meldt av ${listname} på grunn av for mange avvisninger.",
+	"list-admin-notice-subscribe": "${member} har blitt meldt på ${display_name}."
+}
