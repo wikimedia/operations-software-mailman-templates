@@ -11,7 +11,7 @@
 	"list-admin-action-subscribe": "Vaše pooblastilo je potrebno za odobritev prijave na dopisni seznam:\n\n    Za:     ${member}\n    Seznam: ${listname}\n\n https://${domain}/postorius/lists/${short_listname}.${domain}/",
 	"list-admin-action-unsubscribe": "Za odobritev odnaročila od dopisnega seznama je potrebna vaša potrditev:\n\n    Za:     ${member}\n    Seznam: ${listname}\n\n https://${domain}/postorius/lists/${short_listname}.${domain}/",
 	"list-admin-notice-disable": "Naročilo osebe ${member} je bilo na dopisni seznam ${listname} je bilo onemogočeno zaradi števila odklonitev, ki presega prag bounce_score_threshold dopisnega seznama.",
-	"list-admin-notice-removal": "${member} je bil/a zaradi prevelikega števila odklonitev odnaročen/a od seznama ${listname}.",
+	"list-admin-notice-removal": "${member} je bil_a zaradi prevelikega števila odklonitev odnaročen_a od seznama ${listname}.",
 	"list-admin-notice-subscribe": "${member} je bil uspešno naročen na ${display_name}.",
 	"list-admin-notice-unrecognized": "Priloženo sporočilo je bilo prejeto kot sporočilo o odklonitvi, vendar bodisi ni bila prepoznana oblika sporočila ali pa iz njega ni bilo mogoče pridobiti naslovov članov. Ta\ndopisni seznam je bil konfiguriran za pošiljanje vseh neprepoznanih zavrnjenih sporočil\nadministratorju(-em) seznama.\n\n https://${domain}/postorius/lists/${short_listname}.${domain}/",
 	"list-admin-notice-unsubscribe": "${member} je bil odstranjen iz ${display_name}.",
