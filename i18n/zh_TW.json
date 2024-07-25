@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Huajing",
 			"Kly",
 			"列维劳德"
 		]
@@ -19,7 +20,7 @@
 	"list-member-generic-footer": "_______________________________________________\n${display_name}郵件清單 -- ${listname}\n清單資訊：https://${domain}/postorius/lists/${short_listname}.${domain}/",
 	"list-user-action-invite": "${domain} 上的${short_listname}郵件清單持有者，已對您的郵件地址「${user_email}」發出邀請。\n您可以藉由簡單地回覆此封訊息來接受邀請。\n\n或者是您應包含以下一行內容 -- 在給 ${request_email} 的訊息裡只需以下一行：\n\n    confirm ${token}\n\n請留意對多數電郵閱讀器而言，只需發送一個「回覆」給此封訊息即可。\n\n如果您不想接受這份邀請，只需忽略這封訊息即可。若您有別的任何問題，您可以聯絡給：\n\n    ${owner_email}",
 	"list-user-action-subscribe": "電子郵件地址註冊確認\n\n您好，這是來自 ${domain} 上的 GNU Mailman 伺服器。\n\n我們已收到下述電子郵件地址的註冊請求：\n\n    ${user_email}\n\n在您開始使用 GNU Mailman 之前，您必須先確認這是您的電子郵件地址。您可以透過回覆此份訊息或是訪問：\n\n    https://${domain}/postorius/lists/${short_listname}.${domain}/confirm/?token=${token}\n\n或者是您應包含以下一行內容 -- 在給 ${request_email} 的訊息裡只需以下一行：\n\n    confirm ${token}\n\n請留意對多數電郵閱讀器而言，只需發送一個「回覆」給此封訊息即可。\n\n如果您不想註冊這個電子郵件地址註冊，只需忽略這封訊息即可。若您認為您被別人惡意訂閱該清單，或是有別的任何問題，您可以聯絡給：\n\n    ${owner_email}",
-	"list-user-action-unsubscribe": "電子郵件地址取消訂閱確認\n\n您好，這是來自 ${domain} 上的 GNU Mailman 伺服器。\n\n我們已收到下述電子郵件地址的註冊請求：\n\n    ${user_email}\n\n在 GNU Mailman 取消您的訂閱之前，您必須先確認這是您的初次請求。您可以僅需透過回覆此份訊息或是訪問：\n\n    https://${domain}/postorius/lists/${short_listname}.${domain}/confirm/?token=${token}\n\n或者是您應包含以下一行內容 -- 在給 ${request_email} 的訊息裡只需以下一行：\n\n    confirm ${token}\n\n請留意對多數電郵閱讀器而言，只需發送一個「回覆」給此封訊息即可。\n\n如果您沒有要取消訂閱這個電子郵件地址，只需忽略這封訊息即可。若您認為您被別人惡意取消訂閱該清單，或是有別的任何問題，您可以聯絡給：\n\n    ${owner_email}",
+	"list-user-action-unsubscribe": "電子郵件地址取消訂閱確認\n\n您好，這是來自 ${domain} 上的 GNU Mailman 伺服器。\n\n我們已收到下述電子郵件地址的取消訂閱請求：\n\n    ${user_email}\n\n在 GNU Mailman 取消您的訂閱之前，您必須先確認這是您的請求。您可以僅需透過回覆此份訊息或是訪問：\n\n    https://${domain}/postorius/lists/${short_listname}.${domain}/confirm/?token=${token}\n\n或者是您應包含以下一行內容 -- 在給 ${request_email} 的訊息裡只需以下一行：\n\n    confirm ${token}\n\n請留意對多數電郵閱讀器而言，只需發送一個「回覆」給此封訊息即可。\n\n如果您沒有要取消訂閱這個電子郵件地址，只需忽略這封訊息即可。若您認為您被別人惡意取消訂閱該清單，或是有別的任何問題，您可以聯絡給：\n\n    ${owner_email}",
 	"list-user-notice-hold": "您在「${listname}」的郵件主題是：\n\n    ${subject}\n\n在清單版主可對其進行檢閱批准之前，郵件會被暫留。\n\n訊息出於下列原因被暫留：\n\n${reasons}\n\n該訊息將會發布到清單，或者是您會收到版主的判斷通知。",
 	"list-user-notice-no-more-today": "我們已收到來自於您電子郵件 <${sender_email}> 裡，請求從 ${listname} 電郵清單裡自動回覆的訊息。\n\n我們今日已有 ${count} 次請求，為了避免發生電郵機器人之間電郵迴圈之類的問題，我們今日不會再對您發送任何回覆。請您明天再試。\n\n若您認為此訊息內容有誤，或是您有別的問題，請聯絡在 ${owner_email} 裡的清單擁有者。",
 	"list-user-notice-post": "您的留言題名\n\n    ${subject}\n\n已成功被${display_name}電子郵件清單接收。",

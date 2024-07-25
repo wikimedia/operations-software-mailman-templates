@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"GuoPC",
+			"Huajing",
 			"Lantx",
 			"Shimamura Sakura",
 			"列维劳德"
@@ -19,10 +20,15 @@
 	"list-admin-notice-unsubscribe": "成员 ${member} 已从 ${display_name} 移除。",
 	"list-member-digest-masthead": "将 ${display_name} 邮件列表提交至\n    ${listname}\n\n要订阅或取消订阅，请访问\n    https://${domain}/postorius/lists/${short_listname}.${domain}/\n\n您可以通过下方电子邮件联系列表管理者\n    ${owner_email}\n\n回复时请编辑您的主题行，使其比以下内容具体\n“Re: ${display_name} 摘要的内容…”",
 	"list-member-generic-footer": "_______________________________________________\n${display_name} 邮件列表 -- ${listname}\n列表信息：https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-user-action-invite": "您的电子邮箱地址“${user_email}”受邀加入${short_listname}邮件列表，这份邀请来自${domain}上的${short_listname}邮件列表持有人。回复本消息即可接受这份邀请。\n\n或者，您应当在回复给${request_email}的消息中包含（且仅包含）以下这行文字：\n\n    confirm ${token}\n\n请留意，对于大多数电子邮件阅读器而言，只需发送一个“回复”给本消息即可。\n\n如果您希望拒绝这份邀请，请直接忽略本消息。如果您有任何问题，请反馈给${owner_email}。",
+	"list-user-action-subscribe": "电子邮件地址注册确认\n\n您好，这里是来自${domain}上的GNU Mailman服务器。\n\n我们已收到如下电子邮件地址的注册请求：\n\n    ${user_email}\n\n在您使用该网站的GNU Mailman之前，您必须先确认这是您的电子邮件地址。为此，您可以回复本信息或访问：\n\nhttps://${domain}/postorius/lists/${short_listname}.${domain}/confirm/?token=${token}\n\n或者，您应当在回复给${request_email}的消息中包含（且仅包含）以下这行文字：\n\n    confirm ${token}\n\n请留意，对于大多数电子邮件阅读器而言，只需发送一个“回复”给本消息即可。\n\n如果您不希望注册这个电子邮件地址，请直接忽略本消息。如果您认为您被别人恶意添加到该列表，或有任何其他问题，请联系：\n\n    ${owner_email}",
+	"list-user-action-unsubscribe": "电子邮件地址订阅取消确认\n\n您好，这里是来自${domain}上的GNU Mailman服务器。\n\n我们已收到如下电子邮件地址的取消订阅请求：\n\n    ${user_email}\n\n在GNU Mailman为您取消订阅之前，您必须先确认这是您的电子邮件地址。为此，您可以回复本信息或访问：\n\nhttps://${domain}/postorius/lists/${short_listname}.${domain}/confirm/?token=${token}\n\n或者，您应当在回复给${request_email}的消息中包含（且仅包含）以下这行文字：\n\n    confirm ${token}\n\n请留意，对于大多数电子邮件阅读器而言，只需发送一个“回复”给本消息即可。\n\n如果您不希望取消订阅这个电子邮件地址，请直接忽略本消息。如果您认为您被别人恶意添加到该列表，或有任何其他问题，请联系：\n\n    ${owner_email}",
 	"list-user-notice-hold": "您发送到“${listname}”的邮件主题为\n\n    ${subject}\n\n此邮件在列表版主可以对其查阅以供批准之前处于持有状态。\n\n消息出于下述原因出于持有状态：\n\n${reasons}\n\n该消息将被发布到列表，或者您将收到版主抉择的通知。",
 	"list-user-notice-no-more-today": "我们已经从您的地址<${sender_email}>收到消息，请求${listname}邮件列表的自动回复。\n\n鉴于我们今天已收到${count}次请求，为避免机器人之间的循环邮件等问题，今天我们将不会再给您发送任何回复。请明日再试。\n\n如果您认为此消息有误，或其他任何疑问，请联系列表所有者：${owner_email}。",
 	"list-user-notice-post": "您的留言题名\n\n    ${subject}\n\n已成功被 ${display_name} 邮件列表接收。",
+	"list-user-notice-probe": "这是一条探测消息。您可以忽略本消息。\n\n${listname}邮件列表多次收到来自您的退回邮件，这意味着向${sender_email}递送消息的过程中可能出现了问题。下面附有一个样例。请检验本消息，以确认您的电子邮件地址没有问题。您可能要与您的电子邮件管理员共同排查，以获得更多帮助。\n\n您不需要进行任何操作，即可保持为邮件列表的已启用成员。\n\n如果您有任何疑问或状况，您可以联系邮件列表持有人：\n\n${owner_email}",
 	"list-user-notice-refuse": "您对 ${listname} 邮件列表的请求\n\n    ${request}\n\n已被列表版主基于下述原因拒绝：\n\n“${reason}”\n\n若有任何问题或意见请通过下方电子邮件直接联系列表管理员：\n\n    ${owner_email}",
 	"list-user-notice-rejected": "您发送到 ${listname} 邮件列表的消息出于下述原因被拒绝：\n\n${reasons}\n\nMailman 收到的原始消息已附上。",
+	"list-user-notice-warning": "您在${listname}邮件列表的订阅已经被停用，这是因为该邮件列表\n多次收到来自您的退回邮件，这意味着向${sender_email}递送消息的过程中可能出现了问题。您可能要与您的电子邮件管理员共同排查，以获得更多帮助。\n\n如果您有任何疑问或状况，您可以联系邮件列表持有人：\n\n${owner_email}",
 	"list-user-notice-welcome": "欢迎来到“${display_name}”邮件列表！\n\n要发布内容到此列表，请将您的消息发送到：\n\n    ${listname}\n\n您可以通过下方网址来取消订阅或调整您的选项：\n  https://${domain}/postorius/lists/${short_listname}.${domain}"
 }
