@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Woytecr"
+		]
+	},
+	"domain-admin-notice-new-list": "Utworzyliśmy właśnie listę dyskusyjną '${listname}'.  Poniżej znajdują się podstawowe informacje na temat Twojej listy.\n\nSwoją listą możesz zarządzać pod:\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/\n\nArchiwa (jeśli włączone) dostępne będą pod:\n\n  https://${domain}/hyperkitty/list/${listname}/\n\nW razie wątpliwości, zobacz:\n\n  https://meta.wikimedia.org/wiki/Special:MyLanguage/Mailing_lists/Administration",
+	"list-admin-action-post": "Konieczna jest Twoja autoryzacja jako administratora listy, poniższej wiadomości:\n\n    Lista:    ${listname}\n    Od:    ${sender_email}\n    Temat: ${subject}\n\nWiadomość oczekuje z powodu:\n\n${reasons}\n\nOdwiedź panel administracyjny, aby zatwierdzić lub odrzucić to żądanie.\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-admin-action-subscribe": "Potrzebna jest Twoja autoryzacja zatwierdzenia dołączenia do subskrybentów listy dyskusyjnej:\n\n    Kto:  ${member}\n    Lista: ${listname}\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-admin-action-unsubscribe": "Potrzebna jest Twoja autoryzacja zatwierdzenia wypisania z subskrybowania listy dyskusyjnej:\n\n    Kto:  ${member}\n    Lista: ${listname}\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-admin-notice-subscribe": "${member} został pomyślnie dodany do subskrybentów ${display_name}.",
+	"list-admin-notice-unsubscribe": "${member} został usunięty z ${display_name}.",
+	"list-member-digest-masthead": "Wiadomości na listę dyskusyjną ${display_name} należy przesyłać pod\n    ${listname}\n\nAby zarządzać swoją subskrypcją, odwiedź\n    https://${domain}/postorius/lists/${short_listname}.${domain}/\n\nZ osobą zarządzającą tą listą można skontaktować się pod\n    ${owner_email}\n\nPodczas opowiadania zmień pole na temat wiadomości tak, aby był bardziej szczegółowy niż\n\"Re: Contents of ${display_name} digest...\"",
+	"list-member-generic-footer": "_______________________________________________\nlista dyskusyjna ${display_name} -- ${listname}\nInformacja o liście: https://${domain}/postorius/lists/${short_listname}.${domain}/"
+}
