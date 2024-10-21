@@ -11,5 +11,6 @@
 	"list-admin-action-unsubscribe": "Du må godkjenne et avsluttet abonnement på ei e-postliste:\n\n  For:  ${member}\n  Liste:  ${listname}\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
 	"list-admin-notice-disable": "Medlemskapet til ${member} har blitt deaktivert på ${listname} fordi avvisningsskåren (bounce score) hens overskrider e-postlistas bounce_score_threshold.",
 	"list-admin-notice-removal": "${member} har blitt meldt av ${listname} på grunn av for mange avvisninger.",
-	"list-admin-notice-subscribe": "${member} har blitt meldt på ${display_name}."
+	"list-admin-notice-subscribe": "${member} har blitt meldt på ${display_name}.",
+	"list-admin-notice-unsubscribe": "${member} har blitt fjernet fra ${display_name}."
 }
