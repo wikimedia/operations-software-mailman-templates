@@ -11,5 +11,5 @@
 	"list-admin-notice-subscribe": "تم الاشتراك بنجاح ${member} في ${display_name}.",
 	"list-admin-notice-unsubscribe": "تمت إزالة ${member} من ${display_name}.",
 	"list-member-generic-footer": "_______________________________________________\n${display_name} قائمة بريدية -- ${listname}\nمعلومات القائمة: https://${domain}/postorius/lists/${short_listname}.${domain}/",
-	"list-user-notice-post": "رسالتك بعنوان! N !! N! تم استلام ${subject}! N !! N! بنجاح بواسطة القائمة البريدية لـ ${display_name}."
+	"list-user-notice-post": "لقد تم استلام رسالتك التي تحمل عنوان\n\n ${subject}\n\n بنجاح بواسطة قائمة البريد ${display_name}."
 }
