@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"O andras"
+		]
+	},
+	"domain-admin-notice-new-list": "A mailing list '${listname}' acabou de ser criada para ti.  Segue-se\ninformação básica sobre a tua mailing list.\n\nPodes gerir a tua lista em:\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/\n\nArquivos (se activados) estarão disponíveis em:\n\n  https://${domain}/hyperkitty/list/${listname}/\n\nSe tiveres dúvidas, consulta:\n\n  https://meta.wikimedia.org/wiki/Special:MyLanguage/Mailing_lists/Administration",
+	"help": "Ajuda para a mailing list ${listname}\n\nEste é o comando 'help' da versão ${version} do gestor de mailing lists GNU\nMailman em ${domain}.  A seguir são descritos os comandos que podes enviar para\nobter informação sobre e controlar as tuas subscrições a listas Mailman neste\nsite.  O comando pode ir no Assunto ou no corpo da mensagem.\n\nComandos devem ser enviados para o endereço ${listname}-request@${domain}.\n\nSobre as descrições - palavras rodeadas por \"<>\" são OBRIGATÓRIAS e palavras\nrodeadas por \"[]\" são OPCIONAIS.  Não incluas os \"<>\" ou \"[]\" ao usar os\ncomandos.\n\nOs seguintes comandos são válidos:\n\n    ${commands}\n\nDúvidas e preocupações que necessitem da atenção de uma pessoa devem ser\nenviadas para:\n\n    ${administrator}",
+	"list-admin-action-post": "Como administrador da lista, a tua autorização é necessária para\nas seguintes mensagens na lista:\n\n    Lista:   ${listname}\n    De:      ${sender_email}\n    Assunto: ${subject}\n\nThe message is being held because:\nA mensagem está em retenção porque:\n\n${reasons}\n\nQuando te for mais conveniente, vai ao painel de administrador\npara aprovar ou recusar o pedido.\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-admin-action-subscribe": "A tua autorização é necessária para aprovar um pedido de subscrição à\nlista:\n\n    Para:  ${member}\n    Lista: ${listname}\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-admin-action-unsubscribe": "A tua autorização é necessária para aprovar um pedido de cancelamento\nde subscrição à lista:\n\n    Para:  ${member}\n    Lista: ${listname}\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-admin-notice-disable": "A subscrição de ${member} foi desactivada em ${listname} devido à sua pontuação\nde rejeição exceder o bounce_score_threshold da lista.",
+	"list-admin-notice-removal": "Foi cancelada a subscricção de ${member} da ${listname} devido a\nrejeições execessivas.",
+	"list-admin-notice-subscribe": "${member} foi subscrito a ${display_name} com sucesso.",
+	"list-admin-notice-unrecognized": "A mensagem em anexo foi recebida como uma rejeição, mas ou o formato de\nrejeição não foi reconhecido, ou não foi possível extrair nenhum endereço\nde membros.  Esta lista foi configurada para enviar todas as mensagens de\nrejeição para o(s) administrador(es) da lista.\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-admin-notice-unsubscribe": "${member} foi removido de ${display_name}."
+}
