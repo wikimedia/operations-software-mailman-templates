@@ -2,10 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Destinid10 2",
-			"MarcoAurelio"
+			"MarcoAurelio",
+			"Matias jcp"
 		]
 	},
 	"domain-admin-notice-new-list": "La lista de correo '${listname}' acaba de ser creada.\n\nPuedes administrar tu lista en:\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/\n\nLos archivos (de estar habilitados) estarán disponibles en:\n\n  https://${domain}/hyperkitty/list/${listname}/\n\nSi tienes preguntas, por favor lee:\n\n  https://meta.wikimedia.org/wiki/Special:MyLanguage/Mailing_lists/Administration",
+	"list-admin-action-post": "Se requiere su autorización como administrador de la lista para la publicación de la siguiente lista de correos:\n\n    Lista:    ${listname}\n    De:    ${sender_email}\n    Asunto: ${subject}\n\n¿Por qué no se ha enviado?\n\n${reasons}\n\nCuando estime conveniente, visite el panel de control para aprobar o denegar la solicitud.\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-admin-action-subscribe": "Se requiere su autorización para una solicitud de suscripción a una lista de correos.\n\nAprobación:\n    \n    Para:  ${member}\n    Lista: ${listname}\n\nhttps://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-admin-action-unsubscribe": "Se requiere su autorización para cancelar la suscripción a una lista de correos:\n\nAprobación de la solicitud:\n\n    Para:  ${member}\n    Lista: ${listname}\n\nhttps://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-admin-notice-disable": "La suscripción de ${member} ha sido deshabilitada en ${listname} debido a que su puntaje de rebote excede el bounce_score_threshold de la lista de correos.",
 	"list-admin-notice-removal": "La suscripción de ${member} a la lista ${listname} ha sido dada de baja automáticamente debido a excesivos rebotes del correo.",
 	"list-admin-notice-subscribe": "Se suscribió a ${member} a la lista ${display_name}.",
 	"list-admin-notice-unsubscribe": "Se ha eliminado a ${member} de la lista ${display_name}.",
