@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tensama0415",
+			"YeBoy371",
+			"그냥기여자"
+		]
+	},
+	"domain-admin-notice-new-list": "귀하를 위해 방금 '${listname}' 메일링 리스트를 생성했습니다.  하단에서 메일링 리스트에 대한 기본 정보를 확인하실 수 있습니다.\n\n리스트를 여기서 관리할 수 있습니다:\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/\n\n(설정을 켠 경우) 보존된 항목은 여기서 확인할 수 있습니다:\n\n  https://${domain}/hyperkitty/list/${listname}/\n\n질문이 있는 경우 여기를 열람해주세요:\n\n  https://meta.wikimedia.org/wiki/Special:MyLanguage/Mailing_lists/Administration",
+	"help": "${listname} 메일링 리스트 도움말\n\n이것은 ${domain}에 있는 GNU Mailman 리스트 관리자의 ${version} 버전에 대한 이메일 명령 'help'입니다. 다음은 이 사이트의 Mailman 리스트 구독에 대한 정보를 얻고 관리하는 데 사용할 수 있는 명령에 대한 설명입니다.\n명령은 제목이나 본문에 포함할 수 있습니다.\n\n명령은 ${listname}-request@${domain} 주소로 보내야 합니다.\n\n설명에 관하여 - \"<>\" 안의 단어는 필수 항목을 나타내고, \"[]\" 안의 단어는 선택 항목을 나타냅니다. 명령을 사용할 때 \"<>\" 또는 \"[]\"를 포함하지 마세요.\n\n다음 명령이 유효합니다.\n\n    ${commands}\n\n담당자의 도움이 필요한 질문이나 문의 사항은 다음 주소로 보내주세요.\n\n    ${administrator}",
+	"list-admin-action-post": "메일링 리스트 관리자님께, 다음 메일링 리스트 게시물에 대한\n승인이 요청되었습니다:\n\n    리스트: ${listname}\n    발신자: ${sender_email}\n    제목:   ${subject}\n\n이 메시지는 다음 이유로 보류되었습니다:\n\n${reasons}\n\n편하신 시간에 대시보드를 방문하여 이 요청을 승인하거나 거부해\n주세요.\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-admin-action-subscribe": "메일링 리스트 구독 요청 승인에 대한 귀하의 승인이 필요합니다:\n\n    대상:   ${member}\n    리스트: ${listname}\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-admin-action-unsubscribe": "메일링 리스트 구독 취소 요청 승인에 대한 귀하의 승인이 필요합니다:\n\n    대상:   ${member}\n    리스트: ${listname}\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-admin-notice-disable": "${member}의 구독은 반송 점수가 메일링 리스트의 bounce_score_threshold를 초과하여\n${listname}에서 비활성화되었습니다.",
+	"list-admin-notice-removal": "${member}은(는) 과도한 반송으로 인해 ${listname}에서 구독 해제되었습니다.",
+	"list-admin-notice-subscribe": "${member}님이 ${display_name}에 성공적으로 구독되었습니다.",
+	"list-admin-notice-unrecognized": "첨부된 메시지는 반송으로 수신되었지만, 반송 형식이\n인식되지 않았거나 구성원 주소를 추출할 수 없었습니다.\n이 메일링 리스트는 인식되지 않은 모든 반송 메시지를\n리스트 관리자에게 보내도록 설정되어 있습니다.\n\n  https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-admin-notice-unsubscribe": "${member}님이 ${display_name}에서 제거되었습니다.",
+	"list-member-digest-masthead": "${display_name} 메일링 리스트 제출물을 다음으로 보내세요\n    ${listname}\n\n구독하거나 구독 해제하려면 다음을 방문하세요\n    https://${domain}/postorius/lists/${short_listname}.${domain}/\n\n리스트를 관리하는 사람에게 연락하려면 다음으로 문의하세요\n    ${owner_email}\n\n답장할 때는 제목 줄을 \"Re: Contents of ${display_name} digest...\"\n보다 더 구체적으로 수정하세요.",
+	"list-member-generic-footer": "_______________________________________________\n${display_name} 메일링 리스트 -- ${listname}\n리스트 정보: https://${domain}/postorius/lists/${short_listname}.${domain}/",
+	"list-user-action-invite": "\"${user_email}\"님의 이메일 주소가 ${short_listname}\n메일링 리스트 관리자에 의해 ${domain}의 ${short_listname}\n메일링 리스트에 초대되었습니다.\n이 메시지에 답장하기만 하면 초대를 수락할 수 있습니다.\n\n또는 ${request_email}으로 보내는 메시지에 다음 줄(오직 이 줄만)을\n포함해 주세요:\n\n    confirm ${token}\n\n대부분의 메일 클라이언트에서는 이 메시지에 단순히 '답장'만 해도\n초대 수락이 완료됩니다.\n\n초대를 거절하시려면 이 메시지를 무시해 주세요.\n궁금한 점이 있으시면 ${owner_email}으로 문의해 주세요.",
+	"list-user-action-subscribe": "이메일 주소 등록 확인\n\n안녕하세요, ${domain}의 GNU Mailman 서버입니다.\n\n다음 이메일 주소에 대한 등록 요청을 접수했습니다.\n\n    ${user_email}\n\n이 사이트에서 GNU Mailman을 사용하기 전에, 먼저 이 이메일 주소가 본인 소유임을\n확인해야 합니다. 이 메시지에 답장하거나 다음 주소를 방문하여\n확인할 수 있습니다:\n\n    https://${domain}/postorius/lists/${short_listname}.${domain}/confirm/?token=${token}\n\n또는 ${request_email}으로 보내는 메시지에 다음 줄(오직 이 줄만)을\n포함해 주세요:\n\n    confirm ${token}\n\n대부분의 메일 클라이언트에서는 이 메시지에 단순히 '답장'만 해도\n확인이 완료됩니다.\n\n이 이메일 주소를 등록하고 싶지 않다면, 이 메시지를 무시하시면 됩니다.\n악의적으로 메일링 리스트에 구독된 것으로 의심되거나\n다른 궁금한 점이 있으시면 다음 주소로 문의해 주세요.\n\n    ${owner_email}",
+	"list-user-action-unsubscribe": "이메일 주소 등록 확인\n\n안녕하세요, ${domain}의 GNU Mailman 서버입니다.\n\n다음 이메일 주소에 대한 구독 해제 요청을 접수했습니다.\n\n    ${user_email}\n\nGNU Mailman이 구독을 해제하기 전에, 먼저 이 요청이 본인 요청임을\n확인해야 합니다. 이 메시지에 답장하거나 다음 주소를 방문하여\n확인할 수 있습니다:\n\n    https://${domain}/postorius/lists/${short_listname}.${domain}/confirm/?token=${token}\n\n또는 ${request_email}으로 보내는 메시지에 다음 줄(오직 이 줄만)을\n포함해 주세요:\n\n    confirm ${token}\n\n대부분의 메일 클라이언트에서는 이 메시지에 단순히 '답장'만 해도\n확인이 완료됩니다.\n\n이 이메일 주소를 구독 해제하고 싶지 않다면, 이 메시지를 무시하시면 됩니다.\n악의적으로 메일링 리스트에서 구독 해제된 것으로 의심되거나\n다른 궁금한 점이 있으시면 다음 주소로 문의해 주세요.\n\n    ${owner_email}",
+	"list-user-notice-hold": "제목이 다음과 같은 '${listname}'로 보낸 귀하의 메일은\n\n    ${subject}\n\n리스트 조정자가 승인 여부를 검토할 때까지 보류됩니다.\n\n메시지가 보류된 이유:\n\n${reasons}\n\n메시지가 리스트에 게시되거나, 조정자의 결정 알림을 받게 됩니다.",
+	"list-user-notice-no-more-today": "당신의 주소 <${sender_email}>에서 ${listname} 메일링 리스트의\n자동 응답을 요청하는 메시지를 받았습니다.\n\n오늘 확인된 횟수: ${count}. 이메일 로봇 간 메일 루프와 같은 문제를\n피하기 위해 오늘은 더 이상 응답을 보내지 않습니다. 내일 다시 시도하세요.\n\n이 메시지가 오류라고 생각하거나 질문이 있는 경우\n리스트 소유자 ${owner_email}에게 문의하세요.",
+	"list-user-notice-post": "제목이 다음과 같은 당신의 메시지는\n\n    ${subject}\n\n${display_name} 메일링 리스트에 성공적으로 수신되었습니다.",
+	"list-user-notice-probe": "이것은 프로브 메시지입니다. 이 메시지는 무시해도 됩니다.\n\n${listname} 메일링 리스트가 당신으로부터 여러 반송을 수신했으며,\n이는 ${sender_email}로 메시지를 전달하는 데 문제가 있을 수 있음을 나타냅니다. \n샘플이 아래에 첨부되어 있습니다. 이메일 주소에 문제가 없는지 이 메시지를 확인하세요. \n추가 도움이 필요하면 메일 관리자에게 문의할 수 있습니다.\n\n메일링 리스트의 활성 구성원 상태를 유지하기 위해 별도로 해야 할 일은 없습니다.\n\n질문이나 문제가 있으면 다음의 메일링 리스트 소유자에게 문의하세요\n\n    ${owner_email}",
+	"list-user-notice-refuse": "${listname} 메일링 리스트에 대한 당신의 요청\n\n    ${request}\n\n은(는) 리스트 조정자에 의해 거부되었습니다. 조정자가\n거부 이유로 다음을 제시했습니다:\n\n\"${reason}\"\n\n질문이나 의견은 다음 리스트 관리자에게 보내야 합니다:\n\n    ${owner_email}",
+	"list-user-notice-rejected": "${listname} 메일링 리스트로 보낸 당신의 메시지는\n다음 이유로 거부되었습니다:\n\n${reasons}\n\nMailman이 수신한 원본 메시지가 첨부되어 있습니다.",
+	"list-user-notice-warning": "${listname} 메일링 리스트의 귀하 구독은 ${sender_email}로\n메시지를 전달하는 데 문제가 있을 수 있음을 나타내는 여러 반송을\n수신했기 때문에 비활성화되었습니다. 추가 도움이 필요하면 메일 관리자에게\n문의할 수 있습니다.\n\n질문이나 문제가 있으면 다음의 메일링 리스트 소유자에게 문의할 수 있습니다\n\n    ${owner_email}",
+	"list-user-notice-welcome": "\"${display_name}\" 메일링 리스트에 오신 것을 환영합니다!\n\n이 리스트에 게시하려면 다음 주소로 메시지를 보내세요:\n\n ${listname}\n\n구독을 취소하거나 옵션을 변경하려면 다음 주소를 방문하세요:\n https://${domain}/postorius/lists/${short_listname}.${domain}"
+}
